@@ -31,7 +31,7 @@ st.set_page_config(
 
 st.title("🍓 **FruitSave – Fruit Freshness Classification App**")
 st.markdown("""
-Welcome to **FruitSave**, an AI-powered image classifier built using **Deep Learning (CNN)**.
+Welcome to the **FruitSave**, an AI-powered image classifier built using **Deep Learning (CNN)**.
 Upload an image of a fruit below and let the model predict its **freshness level**.
 """)
 
@@ -65,7 +65,7 @@ if uploaded_file is not None:
 
     # Optional: Add color feedback
     if "Fresh" in predicted_label:
-        st.success("✅ This fruit looks Fresh!")
+        st.success("✅ yummy!!! This fruit looks Fresh!")
     elif "Medium" in predicted_label:
         st.warning("⚠️ This fruit is moderately fresh. May spoil soon.")
     else:
@@ -79,6 +79,6 @@ else:
 st.markdown("""
 ---
 👩🏽‍💻 *Developed by Group Six (Jacinta, Hasifa, Evlyne, Josephine)*  
-🌍 Women in Tech AI Bootcamp 2025 – Kampala, Uganda
+🌍 Women in AI Bootcamp BDO 2025 – Kampala, Uganda
 """)
 
