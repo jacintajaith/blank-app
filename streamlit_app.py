@@ -8,7 +8,7 @@ from PIL import Image
 # -------------------------------
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("fruit_model.h5")  # replace with your actual file name
+    model = tf.keras.models.load_model("fruit_model.keras")  # replace with your actual file name
     return model
 
 model = load_model()
